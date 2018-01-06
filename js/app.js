@@ -1,1 +1,10 @@
-console.log('working');
+$(() => {
+
+console.log('still working with jquery');
+
+
+
+
+
+
+});
