@@ -4,5 +4,21 @@ header {
 
 body {
   font-family: Arial;
-  background-color: rgb(30, 30, 30)
+  background-color: rgb(30, 30, 30);
+  color: white;
+}
+
+#btn-area {
+  text-align: center;
+}
+
+#gen-btn {
+  border-radius: 10px;
+  background-color: rgb(200, 11, 20);
+  padding: 10px;
+  border-color: gray;
+}
+
+.form-group {
+  width: 700px;
 }
