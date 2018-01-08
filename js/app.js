@@ -1,10 +1,8 @@
 $(() => {
 
-console.log('still working with jquery');
-
+// VARIABLES
 const $search = $('#gen-btn');
 const $results = $('.results');
-let $result = null;
 
 const data = [
   'episode 1',
@@ -14,9 +12,9 @@ const data = [
   'episode 5'
 ];
 
+// FUNCTIONS
 const $clear = () => {
   $('.new').remove();
-  console.log('removed');
 };
 
 const randomItem = () => {
@@ -25,12 +23,10 @@ const randomItem = () => {
   $('.new').append($result);
 };
 
+// ACTIONS
 $search.on('click', (event) => {
   $clear();
   randomItem();
-  console.log('working');
 });
-
-
 
 });
