@@ -13,12 +13,19 @@ const data = [
   'fourth item'
 ];
 
+const $clear = () => {
+  $('.new').remove();
+  console.log('removed');
+};
+
 const randomItem = () => {
+  $results.append( $('<div>').addClass('new') );
   let $result = data[Math.floor(Math.random()*data.length)];
-  $results.append($result);
+  $('.new').append($result);
 };
 
 $search.on('click', (event) => {
+  $clear();
   randomItem();
   console.log('working');
 });
