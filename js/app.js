@@ -4,13 +4,8 @@ $(() => {
 const $search = $('#gen-btn');
 const $results = $('.results');
 
-const data = [
-  'episode 1',
-  'episode 2',
-  'episode 3',
-  'episode 4',
-  'episode 5'
-];
+// DATABASE
+const data = (dataBase);
 
 // FUNCTIONS
 const $clear = () => {
