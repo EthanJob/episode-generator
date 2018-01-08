@@ -1,2 +1,2 @@
-# episode-generator
-Random episode generator for Netflix, Hulu and/or Amazon Video
+# Episode-generator
+Random episode generator for shows with many seasons and episodes
