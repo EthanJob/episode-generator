@@ -9,16 +9,23 @@ const data = (fullData);
 
 // FUNCTIONS
 const $clear = () => {
-  $('.new').remove();
+  $('.season').remove();
+  $('.episode').remove();
 };
 
 const randomItem = () => {
-  $results.append( $('<div>').addClass('new') );
-  let season = Math.floor(Math.random()*data.length);
-  let episode = data[season].episodes[Math.floor(Math.random()*data[season].episodes.length)];
-  $('.new').append(episode);
-  console.log("Season:", season + 1);
-  console.log("Episode:", episode);
+  $results.append( $('<div>').addClass('season') );
+  $results.append( $('<div>').addClass('episode') );
+  // Numbers
+  let seasonNum = Math.floor(Math.random()*data.length);
+  let episodeNum = data[seasonNum].episodes[Math.floor(Math.random()*data[seasonNum].episodes.length)];
+  let actualSeason = seasonNum + 1;
+  let season = "Season " + actualSeason;
+  let episode = "Episode " + episodeNum;
+  $('.season').append(season);
+  $('.episode').append(episode);
+  // console.log("Season:", actualSeason);
+  // console.log("Episode:", episode);
 };
 
 // ACTIONS
