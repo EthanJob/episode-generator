@@ -1,5 +1,5 @@
 // Rick & Morty example
-const fullData = [
+const rickAndMorty = [
   {
     season: 1,
     episodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
