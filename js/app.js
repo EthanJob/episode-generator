@@ -5,9 +5,7 @@ const $search = $('#gen-btn');
 const $results = $('.results');
 
 // DATABASE
-const data = (dataBase);
-
-// const data = (fullData);
+const data = (fullData);
 
 // FUNCTIONS
 const $clear = () => {
@@ -16,15 +14,12 @@ const $clear = () => {
 
 const randomItem = () => {
   $results.append( $('<div>').addClass('new') );
-  let $result = data[Math.floor(Math.random()*data.length)];
-  $('.new').append($result);
+  let season = Math.floor(Math.random()*data.length);
+  let episode = data[season].episodes[Math.floor(Math.random()*data[season].episodes.length)];
+  $('.new').append(episode);
+  console.log("Season:", season + 1);
+  console.log("Episode:", episode);
 };
-
-// const randomItem = () => {
-//   $results.append( $('<div>').addClass('new') );
-//   let $result = data[Math.floor(Math.random()*data.length)];
-//   $('.new').append($result);
-// };
 
 // ACTIONS
 $search.on('click', (event) => {
