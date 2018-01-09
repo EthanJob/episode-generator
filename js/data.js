@@ -1,7 +1,8 @@
+// Rick & Morty example
 const fullData = [
   {
     season: 1,
-    episodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    episodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
   },
   {
     season: 2,
@@ -9,6 +10,6 @@ const fullData = [
   },
   {
     season: 3,
-    episodes: [1, 2, 3, 4, 5, 6, 7]
+    episodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
   }
 ];
