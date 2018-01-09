@@ -13,7 +13,7 @@ body {
 }
 
 #gen-btn {
-  border: 3px solid;
+  border: 1.5px solid;
   border-radius: 10px;
   background-color: rgb(200, 11, 20);
   padding: 10px;
@@ -25,7 +25,7 @@ body {
 }
 
 #gen-btn:hover {
-  border-color: rgb(140, 11, 20);
+  border-color: white;
 }
 
 #gen-btn:active {
