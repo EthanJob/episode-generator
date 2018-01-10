@@ -5,12 +5,12 @@ const $search = $('#gen-btn');
 const $results = $('.results');
 const $rick = $('#rick');
 const $bob = $('#bob');
-let showName = null;
+let showName = "Rick and Morty";
 
 // DATABASE
-// const whatData = rickAndMorty;
-const whatData = bobsBurgers;
-const data = (whatData);
+// let whatData = rickAndMorty;
+// let whatData = bobsBurgers;
+let data = (rickAndMorty);
 
 // FUNCTIONS
 const $clear = () => {
@@ -20,15 +20,15 @@ const $clear = () => {
 };
 
 ////////////////////////////////////////////
-const getShow = () => {
-  if (whatData === rickAndMorty) {
-    showName = "Rick and Morty";
-  } else if (whatData === bobsBurgers) {
-    showName = "Bob's Burgers";
-  }
-};
-
-getShow();
+// const getShow = () => {
+//   if (whatData === rickAndMorty) {
+//     showName = "Rick and Morty";
+//   } else if (whatData === bobsBurgers) {
+//     showName = "Bob's Burgers";
+//   }
+// };
+//
+// getShow();
 ////////////////////////////////////////////
 
 console.log("Show name:", showName);
@@ -51,17 +51,25 @@ const randomItem = () => {
 };
 
 // ACTIONS
+$rick.on('click', (event) => {
+  $clear();
+  data = (rickAndMorty);
+  showName = "Rick and Morty";
+  console.log("rick was clicked");
+  // console.log("whatData:", whatData);
+});
+
+$bob.on('click', (event) => {
+  $clear();
+  data = (bobsBurgers);
+  showName = "Bob's Burgers";
+  console.log("bob was clicked");
+  // console.log("whatData:", whatData);
+});
+
 $search.on('click', (event) => {
   $clear();
   randomItem();
 });
-
-$rick.on('click', (event) => {
-  console.log("rick was clicked");
-});
-
-$bob.on('click', (event) => {
-  console.log("bob was clicked");
-})
 
 });
