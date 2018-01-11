@@ -1,5 +1,12 @@
 header {
+  /* background-color: black; */
   color: rgb(225, 11, 20);
+}
+
+.title {
+  /* border: 2px solid dodgerblue; */
+  background-color: black;
+  padding: 15px 0 0 0;
 }
 
 body {
