@@ -5,6 +5,7 @@ const $search = $('#gen-btn');
 const $results = $('.results');
 const $rick = $('#rick');
 const $bob = $('#bob');
+const $office = $('#office');
 let showName = "Rick and Morty";
 
 // DATABASE
@@ -66,6 +67,13 @@ $bob.on('click', (event) => {
   console.log("bob was clicked");
   // console.log("whatData:", whatData);
 });
+
+$office.on('click', (event) => {
+  $clear();
+  data = (theOffice);
+  showName = "The Office";
+  console.log("office was clicked");
+})
 
 $search.on('click', (event) => {
   $clear();
