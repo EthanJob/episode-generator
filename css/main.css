@@ -22,8 +22,13 @@ img {
   justify-content: center;
 }
 
+.showIcon:hover {
+  transform: scale(1.2);
+}
+
 .showIcon {
   width: 175px;
+  transition-duration: .5s;
 }
 
 #btn-area {
