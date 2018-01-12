@@ -20,6 +20,10 @@ const $clear = () => {
   $('.episode').remove();
 };
 
+const $clearActive = () => {
+  $('img').removeClass('active');
+}
+
 ////////////////////////////////////////////
 // const getShow = () => {
 //   if (whatData === rickAndMorty) {
@@ -53,25 +57,31 @@ const randomItem = () => {
 
 // ACTIONS
 $rick.on('click', (event) => {
+  $clearActive();
   $clear();
   data = (rickAndMorty);
   showName = "Rick and Morty";
+  $rick.addClass('active');
   console.log("rick was clicked");
   // console.log("whatData:", whatData);
 });
 
 $bob.on('click', (event) => {
+  $clearActive();
   $clear();
   data = (bobsBurgers);
   showName = "Bob's Burgers";
+  $bob.addClass('active');
   console.log("bob was clicked");
   // console.log("whatData:", whatData);
 });
 
 $office.on('click', (event) => {
+  $clearActive();
   $clear();
   data = (theOffice);
   showName = "The Office";
+  $office.addClass('active');
   console.log("office was clicked");
 })
 

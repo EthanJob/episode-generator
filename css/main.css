@@ -38,6 +38,10 @@ img {
   transition-duration: .5s;
 }
 
+.active {
+  border: 3.5px solid dodgerblue;
+}
+
 #btn-area {
   text-align: center;
 }
