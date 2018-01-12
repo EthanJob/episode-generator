@@ -6,7 +6,7 @@ header {
 .title {
   /* border: 2px solid dodgerblue; */
   background-color: black;
-  padding: 15px 0 0 0;
+  padding-top: 10px;
 }
 
 body {
@@ -72,4 +72,17 @@ img {
 .results {
   text-align: center;
   padding-top: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  padding: 0 0 0px 0;
+  font-size: 20px;
+  color: dimgrey;
 }
