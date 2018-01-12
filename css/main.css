@@ -1,12 +1,10 @@
 header {
-  /* background-color: black; */
   color: rgb(225, 11, 20);
 }
 
 .title {
-  /* border: 2px solid dodgerblue; */
   background-color: black;
-  padding-top: 10px;
+  padding-top: 1px;
   font-family: 'Bungee Shade', cursive;
 }
 
@@ -28,7 +26,6 @@ img {
 }
 
 .shows {
-  /* border: 2px solid dodgerblue; */
   text-align: center;
   display: flex;
   justify-content: center;
