@@ -7,6 +7,11 @@ header {
   /* border: 2px solid dodgerblue; */
   background-color: black;
   padding-top: 10px;
+  font-family: 'Bungee Shade', cursive;
+}
+
+h1 {
+  padding-left: 10px;
 }
 
 body {
