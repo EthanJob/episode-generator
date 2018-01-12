@@ -9,8 +9,6 @@ const $office = $('#office');
 let showName = "Rick and Morty";
 
 // DATABASE
-// let whatData = rickAndMorty;
-// let whatData = bobsBurgers;
 let data = (rickAndMorty);
 
 // FUNCTIONS
@@ -23,18 +21,6 @@ const $clear = () => {
 const $clearActive = () => {
   $('img').removeClass('active');
 }
-
-////////////////////////////////////////////
-// const getShow = () => {
-//   if (whatData === rickAndMorty) {
-//     showName = "Rick and Morty";
-//   } else if (whatData === bobsBurgers) {
-//     showName = "Bob's Burgers";
-//   }
-// };
-//
-// getShow();
-////////////////////////////////////////////
 
 console.log("Show name:", showName);
 
@@ -51,8 +37,6 @@ const randomItem = () => {
   $('.show').append(showName);
   $('.season').append(season);
   $('.episode').append(episode);
-  // console.log("Season:", actualSeason);
-  // console.log("Episode:", episode);
 };
 
 // ACTIONS
@@ -62,8 +46,6 @@ $rick.on('click', (event) => {
   data = (rickAndMorty);
   showName = "Rick and Morty";
   $rick.addClass('active');
-  console.log("rick was clicked");
-  // console.log("whatData:", whatData);
 });
 
 $bob.on('click', (event) => {
@@ -72,8 +54,6 @@ $bob.on('click', (event) => {
   data = (bobsBurgers);
   showName = "Bob's Burgers";
   $bob.addClass('active');
-  console.log("bob was clicked");
-  // console.log("whatData:", whatData);
 });
 
 $office.on('click', (event) => {
@@ -82,7 +62,6 @@ $office.on('click', (event) => {
   data = (theOffice);
   showName = "The Office";
   $office.addClass('active');
-  console.log("office was clicked");
 })
 
 $search.on('click', (event) => {

@@ -1,4 +1,4 @@
-// Rick & Morty example
+// Rick & Morty
 const rickAndMorty = [
   {
     season: 1,
@@ -14,6 +14,7 @@ const rickAndMorty = [
   }
 ];
 
+// Bobs Burgers
 const bobsBurgers = [
   {
     season: 1,
@@ -49,6 +50,7 @@ const bobsBurgers = [
   }
 ]
 
+// The Office
 const theOffice = [
   {
     season: 1,
