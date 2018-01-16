@@ -75,6 +75,10 @@ img {
   color: lightgray;
 }
 
+#titleLink {
+  width: 35%;
+}
+
 #titleLink:hover {
   cursor: pointer;
 }
