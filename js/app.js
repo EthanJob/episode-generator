@@ -39,6 +39,10 @@ const randomItem = () => {
   $('.episode').append(episode);
 };
 
+$('#titleLink').on('click', (event) => {
+  location.reload();
+});
+
 // ACTIONS
 $rick.on('click', (event) => {
   $clearActive();

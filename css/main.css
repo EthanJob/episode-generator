@@ -40,6 +40,10 @@ img {
   transition-duration: .5s;
 }
 
+.showIcon:hover {
+  cursor: pointer;
+}
+
 .active {
   border: 3.5px solid dodgerblue;
 }
@@ -69,6 +73,10 @@ img {
   background-color: rgb(150, 11, 20);
   border-color: rgb(150, 11, 20);
   color: lightgray;
+}
+
+#titleLink:hover {
+  cursor: pointer;
 }
 
 .form-group {
