@@ -18,7 +18,7 @@ body {
   color: white;
 }
 
-img {
+.icon {
   height: 150px;
   width: 150px;
   border: 2px solid white;
@@ -92,7 +92,7 @@ img {
   padding-top: 20px;
 }
 
-footer {
+/* footer {
   text-align: center;
   background-color: black;
   position: absolute;
@@ -103,4 +103,4 @@ footer {
   padding: 0 0 0px 0;
   font-size: 20px;
   color: dimgrey;
-}
+} */
