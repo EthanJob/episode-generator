@@ -2,7 +2,19 @@
 const rickAndMorty = [
   {
     season: 1,
-    episodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    episodes: [
+      {num: 1, des: "blah 1"},
+      {num: 2, des: "blah 2"},
+      {num: 3, des: "blah 3"},
+      {num: 4, des: "blah 4"},
+      {num: 5, des: "blah 5"},
+      {num: 6, des: "blah 6"},
+      {num: 7, des: "blah 7"},
+      {num: 8, des: "blah 8"},
+      {num: 9, des: "blah 9"},
+      {num: 10, des: "blah 10"},
+      {num: 11, des: "blah 11"}
+      ]
   },
   {
     season: 2,
