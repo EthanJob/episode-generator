@@ -49,7 +49,7 @@ const randomItem = () => {
   $('.season').append(season);
   $('.episode').append(episode);
   $('.ep-title').append(realTitle);
-  $('.ep-pic').append($('<img>',{src:image}));
+  $('.ep-pic').append($('<img>',{src:image}).addClass('picture'));
   $('.ep-link').append($('<a>').attr('href', link).text("Watch here"));
 };
 

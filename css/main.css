@@ -87,6 +87,11 @@ body {
   width: 700px;
 }
 
+.picture {
+  width: 650px;
+  height: 400px;
+}
+
 .results {
   text-align: center;
   padding-top: 20px;
