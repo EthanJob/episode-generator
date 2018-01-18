@@ -18,6 +18,7 @@ const $clear = () => {
   $('.episode').remove();
   $('.ep-pic').remove();
   $('.des').remove();
+  $('.ep-link').remove();
 };
 
 const $clearActive = () => {
@@ -32,12 +33,14 @@ const randomItem = () => {
   $results.append( $('<div>').addClass('episode') );
   $results.append( $('<div>').addClass('ep-pic') );
   $results.append( $('<div>').addClass('des') );
+  $results.append( $('<div>').addClass('ep-link') );
   // Numbers
   let seasonNum = Math.floor(Math.random()*data.length);
   let getEpisode = Math.floor(Math.random()*data[seasonNum].episodes.length);
   let episodeNum = data[seasonNum].episodes[getEpisode].num;
   let description = data[seasonNum].episodes[getEpisode].des;
   let image = data[seasonNum].episodes[getEpisode].img;
+  let link = data[seasonNum].episodes[getEpisode].link;
   let actualSeason = seasonNum + 1;
   let season = "Season " + actualSeason;
   let episode = "Episode " + episodeNum;
@@ -47,6 +50,7 @@ const randomItem = () => {
   $('.episode').append(episode);
   $('.ep-pic').append($('<img>',{src:image}));
   $('.des').append(realDes);
+  $('.ep-link').append($('<a>').attr('href', link).text(link));
 };
 
 $('#titleLink').on('click', (event) => {
