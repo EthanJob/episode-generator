@@ -90,17 +90,17 @@ body {
 .results {
   text-align: center;
   padding-top: 20px;
+  height: 500px;
+  /* border: 1px solid red; */
 }
 
-/* footer {
-  text-align: center;
-  background-color: black;
+footer {
   position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 30px;
   width: 100%;
-  padding: 0 0 0px 0;
-  font-size: 20px;
+  text-align: center;
+  padding: 5px 0 5px 0;
   color: dimgrey;
-} */
+  background-color: black;
+  font-size: 20px;
+  overflow: hidden;
+}

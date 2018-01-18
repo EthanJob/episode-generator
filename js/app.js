@@ -45,7 +45,7 @@ const randomItem = () => {
   $('.show').append(showName);
   $('.season').append(season);
   $('.episode').append(episode);
-  $('.ep-pic').prepend($('<img>',{src:image}));
+  $('.ep-pic').append($('<img>',{src:image}));
   $('.des').append(realDes);
 };
 
