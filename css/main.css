@@ -18,7 +18,7 @@ body {
   color: white;
 }
 
-img {
+.icon {
   height: 150px;
   width: 150px;
   border: 2px solid white;
@@ -87,20 +87,27 @@ img {
   width: 700px;
 }
 
+.picture {
+  width: 650px;
+  height: 400px;
+}
+
 .results {
   text-align: center;
   padding-top: 20px;
+  margin-bottom: 200px;
+  /* height: 500px; */
+  /* border: 1px solid red; */
 }
 
 footer {
-  text-align: center;
-  background-color: black;
-  position: absolute;
-  left: 0;
+  position: fixed;
   bottom: 0;
-  height: 30px;
   width: 100%;
-  padding: 0 0 0px 0;
-  font-size: 20px;
+  text-align: center;
+  padding: 5px 0 5px 0;
   color: dimgrey;
+  background-color: black;
+  font-size: 20px;
+  overflow: hidden;
 }
