@@ -3,17 +3,17 @@ const rickAndMorty = [
   {
     season: 1,
     episodes: [
-      {num: 1, des: "blah 1"},
-      {num: 2, des: "blah 2"},
-      {num: 3, des: "blah 3"},
-      {num: 4, des: "blah 4"},
-      {num: 5, des: "blah 5"},
-      {num: 6, des: "blah 6"},
-      {num: 7, des: "blah 7"},
-      {num: 8, des: "blah 8"},
-      {num: 9, des: "blah 9"},
-      {num: 10, des: "blah 10"},
-      {num: 11, des: "blah 11"}
+      {num: 1, des: "blah 1", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 2, des: "blah 2", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 3, des: "blah 3", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 4, des: "blah 4", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 5, des: "blah 5", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 6, des: "blah 6", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 7, des: "blah 7", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 8, des: "blah 8", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 9, des: "blah 9", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 10, des: "blah 10", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 11, des: "blah 11", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"}
     ]
   },
   {
@@ -34,16 +34,16 @@ const rickAndMorty = [
   {
     season: 3,
     episodes: [
-      {num: 1, des: "blah 1"},
-      {num: 2, des: "blah 2"},
-      {num: 3, des: "blah 3"},
-      {num: 4, des: "blah 4"},
-      {num: 5, des: "blah 5"},
-      {num: 6, des: "blah 6"},
-      {num: 7, des: "blah 7"},
-      {num: 8, des: "blah 8"},
-      {num: 9, des: "blah 9"},
-      {num: 10, des: "blah 10"}
+      {num: 1, des: "blah 1", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 2, des: "blah 2", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 3, des: "blah 3", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 4, des: "blah 4", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 5, des: "blah 5", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 6, des: "blah 6", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 7, des: "blah 7", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 8, des: "blah 8", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 9, des: "blah 9", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 10, des: "blah 10", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"}
     ]
   }
 ];

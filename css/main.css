@@ -90,12 +90,14 @@ body {
 .results {
   text-align: center;
   padding-top: 20px;
-  height: 500px;
+  margin-bottom: 200px;
+  /* height: 500px; */
   /* border: 1px solid red; */
 }
 
 footer {
-  position: absolute;
+  position: fixed;
+  bottom: 0;
   width: 100%;
   text-align: center;
   padding: 5px 0 5px 0;
