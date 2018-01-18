@@ -3,47 +3,47 @@ const rickAndMorty = [
   {
     season: 1,
     episodes: [
-      {num: 1, des: "blah 1", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
-      {num: 2, des: "blah 2", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
-      {num: 3, des: "blah 3", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
-      {num: 4, des: "blah 4", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
-      {num: 5, des: "blah 5", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
-      {num: 6, des: "blah 6", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
-      {num: 7, des: "blah 7", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
-      {num: 8, des: "blah 8", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
-      {num: 9, des: "blah 9", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
-      {num: 10, des: "blah 10", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
-      {num: 11, des: "blah 11", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"}
+      {num: 1, title: "blah 1", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
+      {num: 2, title: "blah 2", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
+      {num: 3, title: "blah 3", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
+      {num: 4, title: "blah 4", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
+      {num: 5, title: "blah 5", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
+      {num: 6, title: "blah 6", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
+      {num: 7, title: "blah 7", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
+      {num: 8, title: "blah 8", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
+      {num: 9, title: "blah 9", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
+      {num: 10, title: "blah 10", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"},
+      {num: 11, title: "blah 11", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg", link: "https://www.google.com"}
     ]
   },
   {
     season: 2,
     episodes: [
-      {num: 1, des: "blah 1", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
-      {num: 2, des: "blah 2", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
-      {num: 3, des: "blah 3", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
-      {num: 4, des: "blah 4", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
-      {num: 5, des: "blah 5", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
-      {num: 6, des: "blah 6", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
-      {num: 7, des: "blah 7", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
-      {num: 8, des: "blah 8", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
-      {num: 9, des: "blah 9", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
-      {num: 10, des: "blah 10", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"}
+      {num: 1, title: "blah 1", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 2, title: "blah 2", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 3, title: "blah 3", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 4, title: "blah 4", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 5, title: "blah 5", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 6, title: "blah 6", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 7, title: "blah 7", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 8, title: "blah 8", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 9, title: "blah 9", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 10, title: "blah 10", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"}
     ]
   },
   {
     season: 3,
     episodes: [
-      {num: 1, des: "blah 1", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
-      {num: 2, des: "blah 2", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
-      {num: 3, des: "blah 3", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
-      {num: 4, des: "blah 4", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
-      {num: 5, des: "blah 5", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
-      {num: 6, des: "blah 6", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
-      {num: 7, des: "blah 7", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
-      {num: 8, des: "blah 8", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
-      {num: 9, des: "blah 9", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
-      {num: 10, des: "blah 10", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"}
+      {num: 1, title: "blah 1", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 2, title: "blah 2", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 3, title: "blah 3", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 4, title: "blah 4", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 5, title: "blah 5", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 6, title: "blah 6", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 7, title: "blah 7", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 8, title: "blah 8", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 9, title: "blah 9", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"},
+      {num: 10, title: "blah 10", img: "https://demo.goodlayers.com/infinite/homepages/landing/wp-content/uploads/sites/17/2016/06/demo-coming.jpg"}
     ]
   }
 ];
