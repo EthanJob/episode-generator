@@ -1,0 +1,24 @@
+{
+  "name": "episode-generator",
+  "version": "1.0.0",
+  "description": "Random episode generator for shows with many seasons and episodes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthanJob/episode-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EthanJob/episode-generator/issues"
+  },
+  "homepage": "https://github.com/EthanJob/episode-generator#readme",
+  "dependencies": {
+    "angular-route": "^1.6.8",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.1"
+  }
+}

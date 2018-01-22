@@ -2,46 +2,25 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Episode Generator</title>
-    <!-- REPLACE FAVICON -->
-    <link rel="shortcut icon" href="images/favicon.ico" />
-    <!-- REPLACE FAVICON -->
+    <title>Decidr</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Megrim" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
-    <script src="js/app.js" charset="utf-8"></script>
-    <script src="js/data.js" charset="utf-8"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.8/angular-filter.min.js"></script>
+    <script src="js/ang-app.js" charset="utf-8"></script>
   </head>
-  <body>
+  <body ng-app="MyApp">
     <header>
       <div class="title">
-        <h1 id="titleLink">Random Episode <br>Generator</h1>
+        <h1 id="titleLink">Decidr</h1>
         <hr>
       </div>
     </header>
-    <div class="shows">
-      <div class="showIcon">
-        <img class="active icon" id="rick" src="images/rick-and-morty-icon.jpg" alt="Rick and Morty icon">
-        <h4>Rick and Morty</h4>
-      </div>
-      <div class="showIcon">
-        <img class="icon" id="bob" src="images/burger-icon.jpg" alt="Bob's Burgers icon">
-        <h4>Bob's Burgers</h4>
-      </div>
-      <div class="showIcon">
-        <img class="icon" id="office" src="images/office-logo-2.jpg" alt="The Office icon">
-        <h4>The Office</h4>
-      </div>
-    </div>
-    <div id='btn-area'>
-      <button id='gen-btn' type="button">Generate Random Episode</button>
-    </div>
-    <div class="results">
-      <!-- Appending Here -->
-    </div>
+      <main ng-view>
+
+      </main>
     <footer>Created by Ethan Jobmann</footer>
   </body>
 </html>
