@@ -25,8 +25,6 @@ const $clearActive = () => {
   $('img').removeClass('active');
 }
 
-console.log("Show name:", showName);
-
 const randomItem = () => {
   $results.append( $('<div>').addClass('show') );
   $results.append( $('<div>').addClass('season') );
