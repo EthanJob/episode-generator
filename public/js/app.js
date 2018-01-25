@@ -52,12 +52,12 @@ const randomItem = () => {
   let season = "Season " + actualSeason;
   let episode = "Episode " + episodeNum;
   let realTitle = '"' + episodeTitle + '"';
-  $('.show').append(showName);
-  $('.season').append(season);
-  $('.episode').append(episode);
-  $('.ep-title').append(realTitle);
+  $('.show').append( $('<h3>').html(showName) );
+  $('.season').append( $('<h4>').html(season) );
+  $('.episode').append( $('<h4>').html(episode) );
+  $('.ep-title').append( $('<h4>').html(realTitle) );
   $('.ep-pic').append($('<img>',{src:image}).addClass('picture'));
-  $('.ep-link').append($('<a>').attr('href', link).text("Watch here"));
+  $('.ep-link').append($('<h4>').html( $('<a>').attr('href', link).text("Watch the episode here!") ));
 };
 
 $('#titleLink').on('click', (event) => {

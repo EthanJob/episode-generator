@@ -40,6 +40,10 @@ h1 {
   padding-left: 10px;
 }
 
+hr {
+  margin-top: 5px;
+}
+
 body {
   font-family: Arial;
   background-color: rgb(30, 30, 30);
@@ -65,7 +69,7 @@ body {
 
 .nav:hover {
   transform: scale(1.2);
-  color: blue;
+  color: white;
 }
 
 .showIcon {
