@@ -27,10 +27,6 @@ const $clearAll = () => {
   $('#btn-area').remove();
 };
 
-$('#clearBtn').on('click', (event) => {
-  $clearAll();
-});
-
 const $clearActive = () => {
   $('img').removeClass('active');
 }
@@ -95,6 +91,19 @@ $office.on('click', (event) => {
 $search.on('click', (event) => {
   $clear();
   randomItem();
+});
+
+// HEADER LINKS
+$('.ep').on('click', (event) => {
+  location.reload();
+});
+
+$('.rest').on('click', (event) => {
+  $clearAll();
+});
+
+$('.sugg').on('click', (event) => {
+  $clearAll();
 });
 
 });
