@@ -21,6 +21,16 @@ const $clear = () => {
   $('.ep-link').remove();
 };
 
+const $clearAll = () => {
+  $clear();
+  $('.shows').remove();
+  $('#btn-area').remove();
+};
+
+$('#clearBtn').on('click', (event) => {
+  $clearAll();
+});
+
 const $clearActive = () => {
   $('img').removeClass('active');
 }
