@@ -8,6 +8,11 @@ header {
   align-items: baseline;
 }
 
+.pageTitle {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 .topItems {
   display: flex;
   justify-content: space-between;

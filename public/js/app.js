@@ -23,8 +23,9 @@ const $clear = () => {
 
 const $clearAll = () => {
   $clear();
-  $('.shows').remove();
+  $('.showIcon').remove();
   $('#btn-area').remove();
+  $('.titleItems').remove();
 };
 
 const $clearActive = () => {
@@ -93,6 +94,11 @@ $search.on('click', (event) => {
   randomItem();
 });
 
+// CREATE PAGE
+const $fill = () => {
+  $('.pageTitle').append( $('<div>').addClass('titleItems') );
+};
+
 // HEADER LINKS
 $('.ep').on('click', (event) => {
   location.reload();
@@ -100,10 +106,16 @@ $('.ep').on('click', (event) => {
 
 $('.rest').on('click', (event) => {
   $clearAll();
+  $fill();
+  $('.titleItems').append( $('<h2>').html('Restaurant Generator') );
+  $('.titleItems').append( $('<h4>').html('Select a price range') );
 });
 
 $('.sugg').on('click', (event) => {
   $clearAll();
+  $fill();
+  $('.titleItems').append( $('<h2>').html('Suggestions') );
+  $('.titleItems').append( $('<h4>').html("Enter the title of a show <br> you'd like to see on Decidr!") );
 });
 
 });
