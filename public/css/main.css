@@ -6,19 +6,20 @@ header {
   background-color: black;
   padding-top: 1px;
   align-items: baseline;
-  margin-bottom: 0px;
 }
 
 .topItems {
   display: flex;
   justify-content: space-between;
-
 }
 
 .navbar {
   display: flex;
-  padding-right: 20px;
+  padding-right: 25px;
+  margin-top: 10px;
   margin-bottom: 0px;
+  align-items: flex-end;
+  font-size: 15px;
 }
 
 .nav {
@@ -27,7 +28,7 @@ header {
   margin-top: 10px;
   padding-bottom: 0px;
   font-family: 'Varela Round', Arial;
-  align-items: baseline;
+  transition-duration: .4s;
 }
 
 h1 {
@@ -55,6 +56,11 @@ body {
 
 .showIcon:hover {
   transform: scale(1.2);
+}
+
+.nav:hover {
+  transform: scale(1.2);
+  color: blue;
 }
 
 .showIcon {
