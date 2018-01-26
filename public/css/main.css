@@ -50,6 +50,17 @@ body {
   color: white;
 }
 
+.price {
+  border: 2px solid white;
+  border-radius: 20%;
+  color: black;
+  background-color: white;
+  padding: 20px;
+  min-width: 75px;
+  margin: 0 10px 0 10px;
+  font-size: 20px;
+}
+
 .icon {
   height: 150px;
   width: 150px;
@@ -87,6 +98,23 @@ body {
 
 #btn-area {
   text-align: center;
+}
+
+.gen-rest {
+  border: 1.5px solid;
+  border-radius: 10px;
+  background-color: rgb(200, 11, 20);
+  padding: 10px;
+  border-color: rgb(200, 11, 20);
+  margin-top: 20px;
+}
+
+.gen-rest:focus {
+  outline: 0;
+}
+
+.gen-rest:hover {
+  border-color: white;
 }
 
 #gen-btn {
