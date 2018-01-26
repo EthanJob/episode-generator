@@ -24,15 +24,15 @@ const $clear = () => {
 const $clearAll = () => {
   $clear();
   $('.showIcon').remove();
-  $('#btn-area').remove();
+  $('#gen-btn').remove();
   $('.titleItems').remove();
+  $('.price').remove();
+  $('.gen-rest').remove();
 };
 
 const $clearActive = () => {
   $('img').removeClass('active');
 }
-
-console.log("Show name:", showName);
 
 const randomItem = () => {
   $results.append( $('<div>').addClass('show') );
@@ -57,7 +57,7 @@ const randomItem = () => {
   $('.episode').append( $('<h4>').html(episode) );
   $('.ep-title').append( $('<h4>').html(realTitle) );
   $('.ep-pic').append($('<img>',{src:image}).addClass('picture'));
-  $('.ep-link').append($('<h4>').html( $('<a>').attr('href', link).text("Watch the episode here!") ));
+  $('.ep-link').append($('<h4>').html( $('<a>').attr('href', link).text("Watch the episode here!").attr('target', '_blank') ));
 };
 
 $('#titleLink').on('click', (event) => {
@@ -109,6 +109,10 @@ $('.rest').on('click', (event) => {
   $fill();
   $('.titleItems').append( $('<h2>').html('Restaurant Generator') );
   $('.titleItems').append( $('<h4>').html('Select a price range') );
+  $('.shows').append( $('<div>').html('$').addClass('price') );
+  $('.shows').append( $('<div>').html('$$').addClass('price') );
+  $('.shows').append( $('<div>').html('$$$').addClass('price') );
+  $('#btn-area').append( $('<button>').text('Generate Random Restaurant').addClass('gen-rest') );
 });
 
 $('.sugg').on('click', (event) => {
